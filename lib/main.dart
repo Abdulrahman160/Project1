@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'LoginFeature/view/LoginView.dart';
-import 'LoginFeature/view/create_account.dart';
+
+import 'TrackYourShipment7/view/home_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,9 +12,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      locale: Locale('ar'),
-      home: LoginView(),
+    return GestureDetector(
+      onTap: () {
+        FocusManager.instance.primaryFocus?.unfocus();
+      },
+      child: GetMaterialApp(
+        locale: Locale('ar'),
+        home: HomePageView(),
+      ),
     );
   }
 }

@@ -12,9 +12,6 @@ class Styles {
   static TextStyle subTitleStyle2 = TextStyle(
     fontSize: 14,
     color: Colors.grey.shade500,
-    fontWeight: FontWeight.bold
+    fontWeight: FontWeight.bold,
   );
-
 }
-
-
