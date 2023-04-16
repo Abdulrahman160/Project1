@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project_1/SceranPageVeiw3/widget/cared_item_model.dart';
+
+import 'cared_item_model.dart';
 
 class CardItemView extends StatelessWidget {
   const CardItemView({Key? key, required this.cardItem,}) : super(key: key);

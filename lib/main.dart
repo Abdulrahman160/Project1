@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'TeacherWithYou8/view/teacher_with_you_view.dart';
-import 'TrackYourShipment7/view/home_page.dart';
+import '9-DoctorVedio/view/doctor_details_view.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
       },
       child: GetMaterialApp(
         locale: Locale('ar'),
-        home: TeacherWithYou(),
+        home: DoctorDetailsView(),
       ),
     );
   }

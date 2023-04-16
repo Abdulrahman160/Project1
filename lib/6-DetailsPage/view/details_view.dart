@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:project_1/DetailsPage6/widget/rating_model.dart';
 
 import '../widget/header_section_view.dart';
 import '../widget/message_model.dart';
 import '../widget/message_view.dart';
+import '../widget/rating_model.dart';
 import '../widget/ratings_view.dart';
 import '../widget/work_details.dart';
 import '../widget/work_details_model.dart';

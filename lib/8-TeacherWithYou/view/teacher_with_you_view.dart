@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:project_1/constants/assets.dart';
-
 import '../widget/teacger_container_vertical_view.dart';
 import '../widget/teacher_container_herizontal_view.dart';
 
@@ -83,6 +81,7 @@ class _TeacherWithYouState extends State<TeacherWithYou> {
                 SizedBox(
                   height: 30,
                   child: ToggleButtons(
+                    borderRadius: BorderRadius.circular(5),
                     color: Colors.grey,
                     fillColor: Colors.white,
                     selectedColor: Colors.purple,
@@ -122,14 +121,14 @@ class _TeacherWithYouState extends State<TeacherWithYou> {
                           itemBuilder: (context, index) =>
                               TeacherContainerHorizontalView(),
                           separatorBuilder: (context, index) => Padding(
-                                padding:
-                                    const EdgeInsets.symmetric(vertical: 10.0),
-                                child: Divider(
-                                  color: Colors.grey,
-                                  height: 2,
-                                ),
-                              ),
-                          itemCount: 10),
+                            padding: const EdgeInsets.symmetric(vertical: 10.0),
+                            child: Divider(
+                              color: Colors.grey,
+                              height: 2,
+                            ),
+                          ),
+                          itemCount: 10,
+                        ),
                 ),
               ],
             ),

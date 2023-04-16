@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_1/DetailsPage6/widget/rating_model.dart';
+import 'package:project_1/6-DetailsPage/widget/rating_model.dart';
 
 import '../../constants/assets.dart';
 

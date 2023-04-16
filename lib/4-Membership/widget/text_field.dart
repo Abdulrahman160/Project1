@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:project_1/Membership4/widget/style.dart';
+import 'package:project_1/4-Membership/widget/style.dart';
 
 class TextFieldView extends StatelessWidget {
   const TextFieldView({

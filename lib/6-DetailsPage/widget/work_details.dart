@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_1/DetailsPage6/widget/work_details_model.dart';
+import 'package:project_1/6-DetailsPage/widget/work_details_model.dart';
 
 class WorkDetails extends StatelessWidget {
   const WorkDetails({

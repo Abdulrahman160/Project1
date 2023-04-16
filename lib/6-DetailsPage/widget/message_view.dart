@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project_1/DetailsPage6/widget/message_model.dart';
+
+import 'message_model.dart';
 
 class MessageView extends StatelessWidget {
   const MessageView({

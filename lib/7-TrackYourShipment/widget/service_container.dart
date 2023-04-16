@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_1/TrackYourShipment7/widget/service_container_model.dart';
+import 'package:project_1/7-TrackYourShipment/widget/service_container_model.dart';
 
 import '../../constants/assets.dart';
 
