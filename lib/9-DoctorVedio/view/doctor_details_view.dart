@@ -4,7 +4,7 @@ import 'package:video_player/video_player.dart';
 
 import '../../constants/colors.dart';
 import '../widget/chewi_widget.dart';
-import '../widget/video_player_widget.dart';
+
 
 class DoctorDetailsView extends StatefulWidget {
   const DoctorDetailsView({Key? key}) : super(key: key);
@@ -168,7 +168,10 @@ class _DoctorDetailsViewState extends State<DoctorDetailsView>
                             ],
                           ),
                         ),
-                        Container(child: ChewieWidget(),color: Colors.black,),
+                        Container(
+                          child: ChewieWidget(),
+                          color: Colors.black,
+                        ),
                         SizedBox(
                           height: 50,
                         ),
